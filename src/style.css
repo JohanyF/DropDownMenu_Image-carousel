@@ -49,6 +49,11 @@
 }
 
 /* CSS for Image Carousel */
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .img-carousel {
     height: 100%;
     width: 100%;
@@ -63,7 +68,7 @@
 }
 
 .img-slides {
-    width: 80%;
+    width: 800px;
     height: 500px;
     background-color: bisque;
     margin: 1rem;
@@ -85,7 +90,7 @@
     padding: 1rem 0rem;
 }
 
-.circle-btns button {
+.circle-btn {
     border-radius: 50%;
     padding: 5px;
     height: 1rem;
