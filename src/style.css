@@ -59,11 +59,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 .img-slides {
     width: 80%;
     height: 500px;
     background-color: bisque;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+.slide-btn {
+    /* border: none; */
+    background-color: transparent;
+    cursor: pointer;
+    padding: 2rem 1rem;
+}
+
+.circle-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 1rem 0rem;
+}
+
+.circle-btns button {
+    border-radius: 50%;
+    padding: 5px;
+    height: 1rem;
+    width: 1rem;
+    background-color: #A7A7A7;
+    border: none;
+    cursor: pointer;
 }
