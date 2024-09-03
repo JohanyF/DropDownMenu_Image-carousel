@@ -76,10 +76,16 @@ img {
 }
 
 .slide-btn {
-    /* border: none; */
+    border: none;
     background-color: transparent;
     cursor: pointer;
     padding: 2rem 1rem;
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+
+.slide-btn:hover {
+    background-color: rgb(43, 43, 43);
 }
 
 .circle-btns {
@@ -98,4 +104,8 @@ img {
     background-color: #A7A7A7;
     border: none;
     cursor: pointer;
+}
+
+.selected {
+    background-color: black;
 }
